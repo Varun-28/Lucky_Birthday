@@ -1,0 +1,53 @@
+body{
+    font-family: 'Shadows Into Light', cursive;
+    background-color: #FFAA4C;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    color: #001E6C;
+    font-size: 3em;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+.input_fields{
+    margin-bottom: 15px;
+}
+label,.result{
+    color: #001E6C;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.result{
+    text-align: center;
+}
+input{
+    width: 16em;
+    height: 3em;
+    border: solid 2px #035397;
+    border-radius: 5px;
+}
+#check_number{
+    border: solid 2px #001E6C;
+    border-radius: 5px;
+    background-color: #035397;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#check_number:hover{
+    background-color: #5089C6;
+}
